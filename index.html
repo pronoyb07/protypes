@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Animation Text</title>
+    <link href="style.css" rel="stylesheet" />
+</head>
+<body>
+
+    <div class="container">
+        <span class="text1">Welcome to VRS</span>
+    </div>
+
+    <div class="right-col">
+        <p id="icon">Click here to listen</p>
+        <img  src="image/1.jpeg" >
+    </div>
+
+    <audio id="mySong">
+        <source  src= "Pran.mp3" type="audio.mpeg">
+    </audio>
+
+    <script>
+        var mySong = document.getElementById("mySong");
+        var icon = document.getElementById("icon")
+    </script>
+    
+</body>
+</html>
