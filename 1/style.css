@@ -1,27 +1,22 @@
-body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
-  font-family: sans-serif;
+body{
+  margin:100px;
+  font-family:'open sans';
+  font-weight:300;
+  font-size:16px;
+  background-color: #2d2d2d;
 }
-.box {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  width: 200px;
-  height: 50px;
-  border: 2px solid black;
-  box-shadow: 5px 5px gray ;
-  cursor: pointer;
+
+.riobtn{
+  text-decoration:none;
+  background-color:white;
+  color:black;
+  padding:10px 30px;
+  border-bottom:3px solid #828282;
   
-
 }
 
-.box::before { 
-  content: " ";
-  background-color: black;
-  font-weight: bold;
-  transform: translateY(2px);
-  transform: translateX(2px);
+.riobtn:active{
+  border-width:0px;
+  position:relative;
+  top:2px;
 }
