@@ -3,12 +3,12 @@ body{
   font-family:'open sans';
   font-weight:300;
   font-size:16px;
-  background-color: #2d2d2d;
+  background-color: #ecf0f3;
 }
 
 .riobtn{
   text-decoration:none;
-  background-color:white;
+  background-color:yellow;
   color:black;
   padding:10px 30px;
   border-bottom:3px solid #828282;
